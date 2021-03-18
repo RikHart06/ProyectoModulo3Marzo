@@ -100,6 +100,39 @@
     top: 1rem;
     font-size: 3rem;
     line-height: 3rem;
-    color: #1abc9c;
+    color: #49576C;
     opacity: 1;
+  }
+
+  .linkColor{
+    color: #49576C;
+  background-color: transparent;
+  text-decoration: none;
+  }
+  .linkColor:hover{
+    color: #607188;
+  background-color: transparent;
+  text-decoration: underline;
+  }
+
+  .btn-secondary-WA {
+    color: #fff;
+    background-color: #1EBEA5;
+    border-color: #1EBEA5;
+    width: 200px;
+    
+  }
+  
+  .btn-secondary-WA:hover {
+    color: #fff;
+    background-color: #00E676;
+    border-color: #00E676;
+  }
+  
+  .btn-secondary-WA:focus, .btn-secondary-WA.focus {
+    color: #fff;
+    background-color: #00E676;
+    border-color: #545b62;
+    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+    
   }

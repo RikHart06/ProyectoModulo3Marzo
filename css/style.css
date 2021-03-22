@@ -138,7 +138,24 @@
     
   }
 
-  .togglerColor{
-
-    color: green;
+  .btn-secondary-FB {
+    color: #fff;
+    background-color: #2D88FF;
+    border-color: #2D88FF;
+    width: 200px;
+    
+  }
+  
+  .btn-secondary-FB:hover {
+    color: #fff;
+    background-color: #4294FF;
+    border-color: #4294FF;
+  }
+  
+  .btn-secondary-FB:focus, .btn-secondary-WFB.focus {
+    color: #fff;
+    background-color: #4294FF;
+    border-color: #545b62;
+    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+    
   }
